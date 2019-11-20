@@ -2,3 +2,25 @@ html, body {
     height: 100%;
     background-image: url("../images/squares.png");
 }
+
+.wrapper {
+    width: 100%;
+}
+
+@media screen and (min-width: 639px) and (max-width: 821px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .container {
+        align-content: center;
+    
+    } 
+
+}
