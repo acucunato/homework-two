@@ -3,11 +3,25 @@ html, body {
     background-image: url("../images/squares.png");
 }
 
-.wrapper {
-    width: 100%;
+#portfolio-photos {
+    width: 200px;
+    height: 200px;
 }
 
-@media screen and (min-width: 639px) and (max-width: 821px) {
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: white; 
+    background-color:#4aaaa5;
+    width: 200px; 
+    text-align: center;
+}
+
+.card-img-overlay {
+    top: 125px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 639px) and (max-width: 768px) {
     .wrapper {
         width: 100%;
     }
@@ -20,7 +34,17 @@ html, body {
 
     .container {
         align-content: center;
-    
     } 
+
+    #portfolio-photos{ 
+            width: 250px;
+            height: 250px;
+    }
+
+    .card-title {
+        width: 250px;
+    }
+
+
 
 }
